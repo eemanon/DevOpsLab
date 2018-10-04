@@ -1,0 +1,5 @@
+projectKey=com.devops:mavenproject
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.devops:mavenproject
+ceTaskId=AWY-ZaNrrBt3MUKi-L0Z
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWY-ZaNrrBt3MUKi-L0Z
