@@ -23,11 +23,11 @@ M1_SS_SP_NightlyBuild sur https://mass-dev.univ-tlse2.fr/jenkins/
 (boule bleu!)
 ### Tests par Maven
 Installation Plugin SureFire, done
+
 Lancement de test par mvn test, done
--------------------------------------------------------------------------------
-Test set: com.devops.mavenproject.AppTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+"Test set: com.devops.mavenproject.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec"
 
 Création d'archives: Installation plugin: done
 
