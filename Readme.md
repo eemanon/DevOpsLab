@@ -8,8 +8,8 @@ Les rapports sont créés dans target\site\cobertura
 Selon cette analyse, 0% du code est couvert par les tests:
 ceci est peut-etre du au fait que les tests n'ont pas été fait :)
 
-# Partie II: Intégration Continue
-## Installation Sonar
+## Partie II: Intégration Continue
+### Installation Sonar
 - Done, Telechargement, Lancement Serveur
 - Lancement Project avec Sonar
 - mvn sonar:sonar
@@ -17,11 +17,11 @@ ceci est peut-etre du au fait que les tests n'ont pas été fait :)
 Inheritance tree of classes should not be too deep
 --> Desactivé --> -1 code smells
 
-## Intégration avec Jenkins
+### Intégration avec Jenkins
 Done, cette fois-ci utilisé serveur de la fac, job
 M1_SS_SP_NightlyBuild sur https://mass-dev.univ-tlse2.fr/jenkins/
 (boule bleu!)
-# Tests par Maven
+### Tests par Maven
 Installation Plugin SureFire, done
 Lancement de test par mvn test, done
 -------------------------------------------------------------------------------
