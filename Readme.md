@@ -1,5 +1,5 @@
 # Travail effectué
-## Partie I: Utilsation de Maven
+## Partie I: Utilisation de Maven
 ### Création d'un projet Maven
 - Done, voir GitHub 
 

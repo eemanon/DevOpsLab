@@ -68,6 +68,10 @@ public class JXBusyLabelTest extends JFrame implements ActionListener {
 			bLabel1.setBusy(false);
 		}
 	}
+	
+	public int justepourtester(int lol) {
+		return lol;
+	}
 
 	public static void main(String[] args) {
 		new JXBusyLabelTest();

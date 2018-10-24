@@ -1,5 +1,7 @@
 package com.devops.mavenproject;
 
+import java.awt.Dimension;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -31,8 +33,42 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testBtStart()
     {
-        assertTrue( true );
+    	JXBusyLabelTest j = new JXBusyLabelTest();
+        assertEquals("Start",j.btnStart.getLabel());
     }
+    
+    public void testBtStop()
+    {
+    	JXBusyLabelTest j = new JXBusyLabelTest();
+        assertEquals("Stop",j.btnStop.getLabel());
+    }
+    
+    public void testVisible()
+    {
+    	JXBusyLabelTest j = new JXBusyLabelTest();
+        assertTrue(j.isVisible());
+    }
+    
+    public void testSize()
+    {
+    	JXBusyLabelTest j = new JXBusyLabelTest();
+        assertEquals(new Dimension(400,160), j.getSize());
+    }
+    
+    public void testLol() {
+    	JXBusyLabelTest j = new JXBusyLabelTest();
+        assertEquals(42, j.justepourtester(42));    	
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
